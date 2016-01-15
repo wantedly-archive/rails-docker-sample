@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: rails-docker-sample_production
-  username: rails-docker-sample
-  password: <%= ENV['RAILS-DOCKER-SAMPLE_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
