@@ -7,6 +7,6 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 users = User.create([
-  { name: "Alice" },
-  { name: "Bob" },
+  { name: "Alice", age: 28 },
+  { name: "Bob", age: 27 },
 ])
